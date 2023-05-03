@@ -6,7 +6,7 @@ public class exercicioFix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        //Exercicio 1
+        //Questao 1
         System.out.println("Exercicio 1");
         int a, b;
         a = sc.nextInt();
@@ -15,7 +15,7 @@ public class exercicioFix {
         System.out.println("SOMA: " + (a + b));
         //fim
 
-        //Exercicio 2
+        //Questao 2
         System.out.println("Exercicio 2");
         int A, B, C, D;
         A = sc.nextInt();
@@ -28,7 +28,7 @@ public class exercicioFix {
         System.out.println("DIFERENCA: " + dif);
         //fim
 
-        //Exercicio 3
+        //Questao 3
         System.out.println("Exercicio 3");
         int numberFunc;
         double trabH, valorH;
@@ -41,10 +41,10 @@ public class exercicioFix {
         valorH = sc.nextDouble();
 
         System.out.println("NUMBER: " + numberFunc);
-        System.out.printf("SALARY = U$.2f ", (trabH * valorH));
+        System.out.printf("SALARY = U$%.2f ", (trabH * valorH));
         //fim
 
-        //Exercicio 4
+        //Questao 4
         System.out.println("Exercicio 4");
         int p1, n1, p2, n2;
         double v1, v2;
@@ -66,7 +66,7 @@ public class exercicioFix {
         double peca2 = n2 * v2;
         double total = peca1 + peca2;
 
-        System.out.println("VALOR A PAGAR: R$.2f " + total);
+        System.out.printf("VALOR A PAGAR: R$%.2f ", total);
         //fim
 
         sc.close();
